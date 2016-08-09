@@ -3,35 +3,35 @@
 
 
 ##############################################################################
-# def even_odd():
-#     """ Print even or odd:
-#         Takes one integer from user
-#             accepts only non-word numerals
-#             must validate
-#         Determines if even or odd
-#         Prints determination
-#         returns None
-#     """
-    # evenodd_input = int(input("Please enter a number "))
-    # if ((evenodd_input) % 2) == 0:
-    #     determination = 'Even'
-    # else:
-    #     determination = 'Odd'
-    # print(determination)
-    # return None
-    # pass
+def even_odd():
+    """ Print even or odd:
+        Takes one integer from user
+            accepts only non-word numerals
+            must validate
+        Determines if even or odd
+        Prints determination
+        returns None
+    """
+    evenodd_input = int(input("Please enter a number "))
+    if ((evenodd_input) % 2) == 0:
+        determination = 'Even'
+    else:
+        determination = 'Odd'
+    print(determination)
+    return None
+    pass
 
 
-# def ten_by_ten():
-#      """ Prints integers 1 through 100 sequentially in a ten by ten grid."""
-#     count = 1
-#     while count <= 100:
-#         if count % 10 == 0:
-#             print(count)
-#         else:
-#             print(count, end = " ")
-#         count +=1
-# pass
+def ten_by_ten():
+     """ Prints integers 1 through 100 sequentially in a ten by ten grid."""
+    count = 1
+    while count <= 100:
+        if count % 10 == 0:
+            print(count)
+        else:
+            print(count, end = " ")
+        count +=1
+pass
 
 
 def find_average():
@@ -69,8 +69,8 @@ def main():
     """
     # pass
 
-# even_odd()
-# ten_by_ten()
+even_odd()
+ten_by_ten()
 find_average()
 
 if __name__ == '__main__':
